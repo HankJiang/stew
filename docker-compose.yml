@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  :stew
+    image: ccr.ccs.tencentyun.com/stew/stew:latest
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
